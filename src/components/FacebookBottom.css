@@ -1,0 +1,136 @@
+.facebook-blog-wrapper {
+    opacity: 0.8;
+    border-radius: 15px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(255, 255, 255, 0.75));
+    box-shadow: inset 0.5px 0.866px 1px rgba(0, 0, 0, 0.43);
+    background-color: #0087c2;
+    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    height:520px;
+    width: 300px;
+    margin-left: 1150px;
+    margin-top: 130px
+  }
+  .facebook-heading {
+    font-size: 19px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .fh-light-blue {
+    color: #01c3e4;
+  }
+  .fh-white {
+    font-size: 19px;
+    color: #ffffff;
+  }
+  
+  .facebook-blog-inner {
+    border: 1px solid gray;
+  }
+  .facebook-head {
+    background-color: #eceff5;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .f-blank-blog {
+    width: 40px;
+    height: 40px;
+    background-color: #0087c2;
+  }
+  .easy-like {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3px 0;
+  }
+  .easy-fm {
+    font-size: 11px;
+    color: #00364e;
+    font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+  }
+  .easy-fm span {
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .you-like {
+    font-size: 11px;
+    color: #000000;
+    font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+  }
+  .you-like span {
+    font-size: 11px;
+    color: #00364e;
+    font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+  }
+  .facebook-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px 0px 5px 20px;
+    height: 135px;
+  }
+  .f-middle-content {
+    font-size: 11px;
+    color: #000000;
+    font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+    overflow: auto;
+  }
+  .f-timeline {
+    font-size: 11px;
+    color: #000000;
+    font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+  }
+  .facebook-bottom {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+  }
+  .like-counts {
+    font-size: 11px;
+    color: #000000;
+    font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+  }
+  .f-bottom-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    gap: 10px;
+  }
+  .liked-user-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .like-user-img {
+    width: 50px;
+    height: 50px;
+  }
+  .like-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .liked-user-name {
+    font-size: 11px;
+    color: #000000;
+    font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
+  }
+  @media (max-width: 600px) {
+    .facebook-blog-wrapper {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px; /* Adjust margin-top as needed */
+      height: auto; /* Adjust height as needed */
+    }
+  }
+  
